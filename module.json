@@ -1,0 +1,70 @@
+{
+  "id": "hunter-the-reckoning-5e-compendium",
+  "title": "Hunter: the Reckoning 5e Compendium",
+  "version": "1.0.0",
+  "manifest": "https://github.com/Clownf1sh/hunter-the-reckoning-5e-compendium/releases/latest/download/module.json",
+  "download": "https://github.com/Clownf1sh/hunter-the-reckoning-5e-compendium/releases/download/1.0.1/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "creeds",
+      "label": "Creeds",
+      "path": "packs/creeds",
+      "type": "Item",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "drives",
+      "label": "Drives",
+      "path": "packs/drives",
+      "type": "Item",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "advantages-and-flaws",
+      "label": "Advantages & Flaws",
+      "path": "packs/advantages-and-flaws",
+      "type": "Item",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "edges-and-equipment",
+      "label": "Edges & Equipment",
+      "path": "packs/edges-and-equipment",
+      "type": "Item",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wod5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
